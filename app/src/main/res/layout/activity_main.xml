@@ -21,7 +21,8 @@
         android:layout_height="wrap_content"
         android:queryHint="Please type the character."
         android:background="@drawable/search_view_bg"
-        android:layout_margin="8dp"/>
+        android:layout_margin="8dp"
+        android:iconifiedByDefault="false"/>
 
     <androidx.recyclerview.widget.RecyclerView
         android:id="@+id/rvcon"
